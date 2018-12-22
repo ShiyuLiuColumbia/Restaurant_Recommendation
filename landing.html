@@ -4,57 +4,44 @@
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="chatbot.css">
+    <link rel="stylesheet" type="text/css" href="resource/css/landing.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="chatbot.html">Chatbot</a>
-          </li>
-        </ul>
-
-        <ul class="navbar-nav ml-auto">
-            <form class="form-inline my-2 my-lg-0 mr-5">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-            <li class="nav-item">
-                <a class="nav-link" href="#" id="sign_in_button">Sign In</a>
-            </li>
-      
-        </ul>
-      </div>
-    </nav>
 <!-- ========== content  start ====================== -->
 
 
-
+    <!-- Full Page Intro -->
+    <div class="view" style="background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545344700572&di=41527911e9587a97df12b2ecb1057f21&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2Fc%2F57b2a4e15f157.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <!-- Mask & flexbox options-->
+      <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+        <!-- Content -->
+        <div class="container">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-12 white-text text-center " style="margin-top: 160px;">
+              <h1 style="font-size: 70px;" class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Order and Recommendation</strong></h1>
+              <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+              <h3 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Welcome to our restaurant view website</strong></h3>
+              <a class="btn btn-outline-dark" data-wow-delay="0.4s" style="font-size: 20px;" id="sign_in_button"><strong>Sign in</strong></a>
+              <a class="btn btn-outline-dark" data-wow-delay="0.4s" style="font-size: 20px;" href="index.html"><strong>View</strong></a>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Content -->
+      </div>
+      <!-- Mask & flexbox options-->
+    </div>
 
 
 
 <!-- ======================= content end=================== -->
-    <script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
-    <script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
-    <script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
-    <script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
-    <script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
-    <script type="text/javascript" src="lib/url-template/url-template.js"></script>
-    <script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
-    <script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
-    <script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
-    <script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
-    <script type="text/javascript" src="apigClient.js"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/amazon-cognito-auth-js/dist/amazon-cognito-auth.min.js"></script>
-    <script type="text/javascript" src="Cognito.js" ></script>
+    <script src="resource/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="resource/node_modules/amazon-cognito-auth-js/dist/amazon-cognito-auth.min.js"></script>
+    <script type="text/javascript" src="resource/js/Cognito.js" ></script>
 </body>
 </html>

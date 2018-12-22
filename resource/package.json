@@ -1,0 +1,15 @@
+{
+  "name": "food_for_you",
+  "version": "1.0.0",
+  "description": "Recommend restaurants for you!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shiyu Liu",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-auth-js": "^1.2.4",
+    "jquery": "^3.3.1"
+  }
+}
